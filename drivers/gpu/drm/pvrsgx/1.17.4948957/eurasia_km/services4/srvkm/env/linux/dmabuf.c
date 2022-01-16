@@ -58,6 +58,8 @@ CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 #include "linkage.h"
 #include "pvr_bridge.h"
 
+MODULE_IMPORT_NS(DMA_BUF);
+
 struct dmabuf_import
 {
 	struct dma_buf *dma_buf;
